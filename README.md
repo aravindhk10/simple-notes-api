@@ -15,7 +15,7 @@ Implements authentication via JWT and full CRUD for personal notes.
 
 ## Getting Started
 
-### 1. Clone and install dependencies
+## 1. Clone and install dependencies
 
 -git clone https://github.com/aravindhk10/simple-notes-api
 -cd simple-notes-api
