@@ -22,6 +22,6 @@ Implements authentication via JWT, raw SQL (no ORM), and full CRUD for personal 
 -cd simple-notes-api
 -npm install
 
-### 📄 2. Table(users,notes) created through PgAdmin querytool, according to the schema given in schema.sql fiile.
+### 2. Table(users,notes) created through PgAdmin querytool, according to the schema given in schema.sql fiile.
 
     
