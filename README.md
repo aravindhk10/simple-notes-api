@@ -1,7 +1,7 @@
 # Simple Notes API
 
 Built with Node.js, Express, and PostgreSQL.  
-Implements authentication via JWT, raw SQL (no ORM), and full CRUD for personal notes.
+Implements authentication via JWT and full CRUD for personal notes.
 
 
 ##Tech Stack
@@ -10,7 +10,6 @@ Implements authentication via JWT, raw SQL (no ORM), and full CRUD for personal 
 - PostgreSQL
 - JWT for Auth
 - bcrypt for password hashing
-- Raw SQL via `pg` (no ORM)
 - CORS enabled
 
 
