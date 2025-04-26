@@ -3,7 +3,7 @@ const cors = require("cors");
 require("dotenv").config();
 
 const authRoutes = require("./routes/auth");
-const notesRoutes = require("./routes/notes"); // We’ll uncomment this later
+const notesRoutes = require("./routes/notes"); 
 
 const app = express();
 const PORT = process.env.PORT || 5000;
@@ -17,7 +17,7 @@ app.get("/", (req, res) => {
 
 // Routes
 app.use("/login", authRoutes);
-app.use("/notes", notesRoutes); // We’ll add this later
+app.use("/notes", notesRoutes); 
 
 app.listen(PORT, () => {
   console.log(`Server running at http://localhost:${PORT}`);

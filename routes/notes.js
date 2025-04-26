@@ -3,7 +3,6 @@ const router = express.Router();
 const verifyToken = require("../middleware/authMiddleware");
 const notesController = require("../controllers/notesController");
 
-// Protect all /notes routes with the token middleware
 router.use(verifyToken);
 
 router.get("/", notesController.getAllNotes);
