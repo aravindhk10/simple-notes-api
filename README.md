@@ -25,7 +25,7 @@ git clone https://github.com/aravindhk10/simple-notes-api.git
 cd simple-notes-api
 npm install
 ```
-2. Setup Environment Variables
+### 2. Setup Environment Variables
 Create a .env file in the root folder:
 
 ```
