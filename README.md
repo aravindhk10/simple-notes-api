@@ -1,26 +1,26 @@
-# Simple Notes API
+# 📝 Simple Notes API
 
-Built with Node.js, Express, and PostgreSQL.  
-Implements authentication via JWT and full CRUD for personal notes.
+A secure RESTful Notes API built with Node.js, Express, and PostgreSQL.  
+Implements authentication via JWT, raw SQL (no ORM), and full CRUD operations for personal notes.
 
+---
 
-##Tech Stack
+## 📦 Tech Stack
 
-- Node.js + Express
+- Node.js + Express.js
 - PostgreSQL
-- JWT for Auth
-- bcrypt for password hashing
+- JWT for Authentication
+- bcrypt for Password Hashing
 - CORS enabled
+- Raw SQL queries (no ORM)
 
+---
 
-## Getting Started
+## 🚀 Getting Started
 
-## 1. Clone and install dependencies
+### 1. Clone and install dependencies
 
--git clone https://github.com/aravindhk10/simple-notes-api.git
--cd simple-notes-api
--npm install
-
-### 2. Table(users,notes) created through PgAdmin querytool, according to the schema given in schema.sql fiile.
-
-    
+```bash
+git clone https://github.com/aravindhk10/simple-notes-api.git
+cd simple-notes-api
+npm install
