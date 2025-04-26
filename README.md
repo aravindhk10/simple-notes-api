@@ -34,8 +34,8 @@ DATABASE_URL=postgresql://postgres:yourpassword@localhost:5432/notes_db
 JWT_SECRET=your_super_secret_key
 ```
 
-3. Create Database Tables
-   create a database notes_db and within that two table users and notes according to the schema.sql file or follow the script below.
+### 3. Create Database Tables
+create a database notes_db and within that two table users and notes according to the schema.sql file or follow the script below.
 ```
 psql -U postgres -d notes_db -f schema.sql
 ```
