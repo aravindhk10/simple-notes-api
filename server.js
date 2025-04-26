@@ -3,7 +3,7 @@ const cors = require("cors");
 require("dotenv").config();
 
 const authRoutes = require("./routes/auth");
-const notesRoutes = require("./routes/notes"); 
+const notesRoutes = require("./routes/notes");
 
 const app = express();
 const PORT = process.env.PORT || 5000;
@@ -15,9 +15,8 @@ app.get("/", (req, res) => {
   res.send("Simple Notes API is running!");
 });
 
-// Routes
 app.use("/login", authRoutes);
-app.use("/notes", notesRoutes); 
+app.use("/notes", notesRoutes);
 
 app.listen(PORT, () => {
   console.log(`Server running at http://localhost:${PORT}`);
