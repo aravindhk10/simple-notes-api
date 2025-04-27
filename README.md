@@ -45,7 +45,7 @@ npm run dev
 
 ### 1. Insert a Test User into Database
 You need to manually add a username and password(hashed) to the users table, thereby creating a user. 
-For that First, generate a hashed password for your desired password
+For that, first generate a hashed veersion of the password usinng bcrypt.
 - Create a generate-hash.js file with the following content:
 ```
 const bcrypt = require("bcrypt");
