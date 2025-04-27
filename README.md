@@ -107,5 +107,5 @@ For all /notes API calls, you must add the token inside the Headers:
 | DELETE | `http://localhost:5000/notes/:id`   | Delete a note by ID     |
 
 Remember:  
--For all these routes, you **must attach the Authorization header** in Postman: Authorization: Bearer your_token_here
+- For all these routes, you **must attach the Authorization header** in Postman: Authorization: Bearer your_token_here
 
