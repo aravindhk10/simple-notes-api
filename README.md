@@ -67,3 +67,28 @@ Insert the user manually into the database:
 INSERT INTO users (username, password_hash)
 VALUES ('yourusername', 'your_generated_hashed_password');
 ```
+### 2. Login to Receive a Token
+ In Postman, POST request to:
+ ```
+http://localhost:5000/login
+
+ ```
+Set Body -> raw -> JSON:
+```
+{
+  "username": "yourusername",
+  "password": "yourpassword"
+}
+```
+If credentials are correct, you will receive a JWT token in the response:
+```
+{
+  "token": "your_generated_token_here"
+}
+```
+### 3. Access Notes Endpoints Using the Token
+For all /notes API calls, you must add the token inside the Headers:
+
+- Key: Authorization
+
+- Value: Bearer your_token_here
