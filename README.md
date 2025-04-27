@@ -92,3 +92,20 @@ For all /notes API calls, you must add the token inside the Headers:
 - Key: Authorization
 
 - Value: Bearer your_token_here
+
+
+###  Notes API Routes to be tested:
+
+- After logging in and getting the token, you can test the following Notes API routes using Postman:
+
+| Method | Full Route                         | Purpose                |
+|--------|-------------------------------------|-------------------------|
+| POST   | `http://localhost:5000/notes`       | Create a new note       |
+| GET    | `http://localhost:5000/notes`       | Get all notes           |
+| GET    | `http://localhost:5000/notes/:id`   | Get a specific note by ID |
+| PUT    | `http://localhost:5000/notes/:id`   | Update a note by ID     |
+| DELETE | `http://localhost:5000/notes/:id`   | Delete a note by ID     |
+
+Remember:  
+-For all these routes, you **must attach the Authorization header** in Postman: Authorization: Bearer your_token_here
+
