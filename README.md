@@ -44,9 +44,9 @@ npm run dev
 ## Testing the API with Postman
 
 ### 1. Insert a Test User into Database
-You need to manually add a username and password to the users table, thereby creating a user
+You need to manually add a username and password(hashed) to the users table, thereby creating a user. 
 For that First, generate a hashed password for your desired password
-Create a generate-hash.js file with the following content:
+- Create a generate-hash.js file with the following content:
 ```
 const bcrypt = require("bcrypt");
 
