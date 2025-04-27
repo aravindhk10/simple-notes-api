@@ -63,7 +63,7 @@ node generate-hash.js
 ```
 Copy the generated hashed password.
 Insert the user manually into the database:
-````
+```
 INSERT INTO users (username, password_hash)
 VALUES ('yourusername', 'your_generated_hashed_password');
 ```
